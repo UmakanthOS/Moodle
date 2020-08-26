@@ -37,7 +37,7 @@ This template set deploys the following infrastructure core to your Moodle insta
 - Controller instance running cron and handling syslog for the autoscaled site
 - [Azure Load balancer](https://azure.microsoft.com/en-us/services/load-balancer/) to balance across the autoscaled instances
 - [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/) or [Azure Database for PostgreSQL](https://azure.microsoft.com/en-us/services/postgresql/) or [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)
-- [Azure Files Premium](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-premium-fileshare?tabs=azure-portal) with support for other options like Dual [GlusterFS](https://www.gluster.org/) nodes or NFS for high availability access to Moodle files
+- [Azure Files Premium](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-premium-fileshare?tabs=azure-portal) is the default storage option. However, the fully configurable deployment comes with support for other options like Dual [GlusterFS](https://www.gluster.org/) nodes or NFS for high availability access to Moodle files
 
 This template set *optionally* configures the following additional infrastructure:
 - [Azure Backup](https://azure.microsoft.com/en-us/services/backup/) for Moodle site backups
